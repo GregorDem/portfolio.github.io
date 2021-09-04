@@ -1,0 +1,103 @@
+body {
+  background-color: #232a35;
+}
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.entrance {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+}
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+h1 {
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Cinzel', serif;
+  color: #fe59c2;
+}
+::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+form h2 {
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+}
+form input {
+  width: 300px;
+  height: 30px;
+  background-color: #38414e;
+  color: white;
+  font-family: 'Bona Nova', serif;
+  font-size: 16px;
+  border: none;
+  padding-left: 10px;
+}
+form input:focus {
+  outline: 1px solid #cfcfcf;
+}
+form button {
+  padding: 5px 5px;
+  margin: 5px 0;
+  background: #d481b7;
+  border: none;
+  color: white;
+  font-family: 'Cinzel', serif;
+  border-radius: 2px;
+}
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+.link a {
+  text-decoration: none;
+  color: #1b717c;
+}

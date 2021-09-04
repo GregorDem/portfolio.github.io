@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style-main.css">
+	<link rel="stylesheet" href="css/style-ForToDoList.css">
+	<link rel="stylesheet" href="css/style-Clock.css">
+	<link rel="stylesheet" href="css/style-Store.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mada:wght@200&display=swap" rel="stylesheet">
+	<title>JS_Study</title>
+</head>
+<body>
+	<main>
+		<div class="first-block">
+			<h1 class="label">Road to Junior JavaScript</h1>
+			<div class="line-one"></div>
+			<p class="Footnote">Приветствую! Вы попали на сайт-экскурсию по моим проектам. Я рад, что вы зашли сюда, а теперь пришло время путешествия. С чего же стоит начать каждому программисту? Правильно! Ему стоит расписать свой план обучения, а в этом ему поможет приложение &laquo;Заметки&raquo;.</p>
+			<div class="line-one"></div>
+			<section class="TDL">
+				<div class="toDoList">
+					<h2 class="label-second">Задачи</h2>
+					<div class="text">
+						<textarea name="task" class = "taskarea" id="taskArea" maxlength="175" cols="30" rows="10"></textarea>
+						<button type = "button" id="btn" value="button" class="buttons Save">S a v e</button>
+					</div>
+					<div class="line"></div>
+					<div class="Alltasks"></div>
+				</div>
+			</section>	
+			<div class="line-two"></div>
+				<p class="Footnote-two">Ну что рассписали свой план обучения? Отлично! Тогда не забывай, что времени мало и за ним нужно следить. Можешь узнать время с помощью моих часов</p>
+			<div class="line-three"></div>	
+		</div>
+		<div class="space"></div>
+		<div class="second-block">
+			<section class="Clock">
+				<div class="clock">
+					<p class="time">00:00:00</p>
+					<p class="color">#834927</p>
+				</div>
+			</section>				
+		</div>
+		<div class="line-two"></div>
+			<p class="Footnote-three">Независимо от того сколько время я думаю вы проголодались. Ну что ж тогда предлагаю посетить сайт одного очень известного ресторана. Buon appetito)</p>
+		<div class="line-two"></div>
+		<section class="Restaurant">
+			<img src="restaurantSite/img/Vector.png" alt="">
+			<h2>HUNGRY PEOPLE</h2>
+			<button><a href="restaurantSite/index.html">Перейти на сайт</a></button>
+		</section>
+		<div class="line-two"></div>
+			<p class="Footnote-three">Сайт ресторана это, конечно, хорошо, но что насчёт страницы интернет магазина, на котором вы можете закинуть товары в корзину или пометить их, как понравившиеся? Думаю это интересно)</p>
+		<div class="line-two"></div>
+		<section class="Store">
+			<div class="head">
+				<div class="name-with-icon">
+					<img src="img/Chip.png" alt="">
+					<h1 class = "name">What a Market</h1>
+				</div>
+				<div class="favorites-with-icon">
+					<img src="img/Heart.png" alt="">
+					<a class = "favorites" href="##">Favorites</a>
+				</div>
+				<div class="cart-with-icon">
+					<img src="img/Vector.png" alt="">
+					<a class="cart" href="##">Cart</a>
+				</div>
+			</div>
+			<div class="line-to-list"></div>
+			<div class="list-of-products">
+				<div class="cart-of-product">
+					<img src="img/image-1.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "1-name" class = "name-of-product" >DJI Phantom 2 Vision+</p>
+							<p id = "1-name-price" class = "price" >$599</p>
+						</div>
+						<div class="buttons">
+							<div id = "1f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+							<button id = "1" onclick="toCart(this.id)" class="Add">Add to cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="cart-of-product">
+					<img src="img/image-2.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "2-name" class = "name-of-product" >DJI Phantom 4 Multispectral</p>
+							<p id = "2-name-price" class = "price" >$1449</p>
+						</div>
+						<div class="buttons">
+							<div id = "2f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+							<button id = "2" onclick="toCart(this.id)" class="Add">Add to cart</button>
+					</div>
+					</div>
+				</div>
+				<div class="cart-of-product">
+					<img src="img/image-3.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "3-name" class = "name-of-product" >DJI Phantom 4 PRO</p>
+							<p id = "3-name-price" class = "price" >$739</p>
+						</div>
+						<div class="buttons">
+							<div id = "3f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+							<button id = "3" onclick="toCart(this.id)" class="Add">Add to cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="cart-of-product">
+					<img src="img/image-4.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "4-name" class = "name-of-product" >4 Series — Intelligent Flight Battery</p>
+							<p id = "4-name-price" class = "price" >$186</p>
+						</div>
+						<div class="buttons">
+							<div id = "4f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+							<button id = "4" onclick="toCart(this.id)" class="Add">Add to cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="cart-of-product">
+					<img src="img/image-5.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "5-name" class = "name-of-product" >DJI Phantom 3 — Intelligent Flight Battary</p>
+							<p id = "5-name-price" class = "price" >$98</p>
+						</div>
+						<div class="buttons">
+							<div id = "5f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+							<button id = "5" onclick="toCart(this.id)" class="Add">Add to cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="cart-of-product">
+					<img src="img/image-6.png" alt="">
+					<div class="wrapper">
+						<div class="info-about-product">
+							<p id = "6-name" class = "name-of-product" >DJI Phantom 4 PRO MAX</p>
+							<p id = "6-name-price" class = "price" >$1199</p>
+						</div>
+						<div class="buttons">
+							<div id = "6f" onclick="toFavorite(this.id)"  class="heart-to-favorite"></div>
+							<button id = "6" onclick="toCart(this.id)" class="Add">Add to cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+<div class="overplay">
+	<div class="popup">
+		<h2 class = "Post" >Postponed</h2>
+		<div class="close-popup"></div>
+		<div class="elementS"></div>
+	</div>
+</div>
+<div class="overplay-2">
+	<div class="popup-2">
+		<h2 class = "Cart">Cart</h2>
+		<div class="close-popup-2"></div>
+		<div class="wrapForCart">
+			<div class="elementsInCart"></div>
+			<div class="infoAboutCart">
+				<div id = 'totalCost' class="totalCost">Total Cost: 0$</div>
+				<div id = 'quantity' class="products">Quantity of goods: 0</div>
+				<button>Proceed to Checkout</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/toDoList.js"></script>
+<script src="js/Clock.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="js/Store.js"></script>
+</body>
+</html>
+<!-- browser-sync start --server --files "php/*.php,css/*.css,js/*.js,html/*.html,*.*" -->

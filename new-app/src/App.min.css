@@ -1,0 +1,4 @@
+h1{text-align:center;font-size:64px;color:#fff;font-family:Tourney,cursive}
+body{background:linear-gradient(to left,#87bfec,#0082ae,#1b405d)}
+.about{display:flex;flex-direction:column;align-items:center}
+.about p{width:900px;text-align:center}

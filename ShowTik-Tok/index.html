@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@635&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="first-section">
+            <h2>Цвет</h2>
+            <div id = '1' class="photo">
+            </div>
+            <button onclick="Color()">Сгенерировать</button>
+        </div>
+        <div class="second-section">
+            <h2>Предмет</h2>
+            <div id = '2' class="photo">
+            </div>
+            <button onclick="Thing()">Сгенерировать</button>
+        </div>
+        <div class="third-section">
+            <h2>Локация</h2>
+            <div id = '3' class="photo">
+            </div>
+            <button onclick="Location()">Сгенерировать</button>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="admin">
+            <h2>Административный блок</h2>
+            <div class="mainInfo">
+                <div class="infoColor">
+                    <p>Колличество картинков в папке "Color"</p>
+                    <input type="text">
+                    <button>Ввести</button>
+                </div>
+                <div class="infoThing">
+                    <p>Колличество картинков в папке "Thing"</p>
+                    <input type="text">
+                    <button>Ввести</button>
+                </div>
+                <div class="infoLocation">
+                    <p>Колличество картинков в папке "Location"</p>
+                    <input type="text">
+                    <button>Ввести</button>
+                </div>
+            </div>
+            <div class="DeleteInfo">
+                <p>НЕ НАЖИМАТЬ БЕЗ НЕОБХОДИМОСТИ!!!</p>
+                <button>ОЧИСТИТЬ</button>
+            </div>
+        </div>
+    </footer>
+<script src="main.js"></script>    
+</body>
+</html>

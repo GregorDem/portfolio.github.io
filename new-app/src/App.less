@@ -1,0 +1,173 @@
+h1 {
+    text-align: center;
+    font-size: 64px;
+    color: rgb(255, 217, 0);
+    font-family: 'Tourney', cursive;
+    background-color: #1f2122;
+    margin: 0;
+    padding: 50px 0;
+  }
+body {
+    background:#292e30
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303536;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22),
+        	0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    h2 {
+        color: wheat;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 36px;
+    }
+    p {
+        width: 900px;
+        text-align: center;
+        color: white;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 22px;
+    }
+}
+nav {
+    width: 15%;
+    ul {
+        background-color: #1f2122;
+        border-radius: 0 0 20% 0;
+        height: 280px;
+        width: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: sticky;
+        top:50px;
+        margin-top: 0;
+        padding: 10px 20px;
+        // box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22),
+        // 	0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+    }
+    li {
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: rgb(255, 217, 0);
+            font-family: 'Philosopher', sans-serif;
+        }
+       }
+}
+// .Acc {
+//     background-color: yellow;
+//     width: 85%;
+//     height: 2000px;
+// }
+.backTitle {
+    width: 100%;
+    height: 80px;
+    background-color: #1f2122;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+}
+.list {
+    margin: 20px 10px 0 0;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .item {
+        list-style-type: none;
+        width: 340px;
+        height: 250px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        color: white;
+        background: #303536;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22),
+        	0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+        .NameDrink {
+            display: flex;
+            justify-content: center;
+
+        }
+        img {
+            width: 170px;
+            height: 170px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22),
+        	0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+        }
+        .drinkInfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 80%;
+        }
+        .buttonBar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button {
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 8px 16px;
+            background-color: rgb(255, 217, 0);
+            border: none;
+            outline: none;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22),
+        	0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(199, 173, 26);
+        }
+        button:focus:not(:active) {
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 8px 16px;
+            background-color: rgb(94, 81, 7);
+            outline: 2px solid rgb(37, 33, 9);
+            box-shadow: inset 0 0 6px ;
+        }
+        .favorite {
+            width: 50px;
+            height: 50px;
+            background-image: url(./img/Heart-in-cart.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .rank {
+            display: flex;
+            width: 140px;
+            justify-content: space-around;
+            margin-left: 5px;
+            .star {
+                width: 24px;
+                height: 24px;
+                background-image: url(./img/star.png);
+                mask-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+.Mainwindow {
+    display: flex;
+    // width: 100%;
+}

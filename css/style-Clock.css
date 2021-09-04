@@ -1,0 +1,40 @@
+.space {
+	background-color: #70A8A9;
+	height: 50px;
+	width: 100%;
+}
+.second-block {
+	background-color: pink;
+}
+.Footnote-two {
+	background-color: #70A8A9;
+	text-align: center;
+	font-size: 36px;
+	margin: 50px 100px;
+}
+.line-two {
+	background-color: black;
+	margin-top: 20px;
+	width: 100%;
+  	height: 2px;
+}
+.line-three {
+	background-color: black;
+	width: 100%;
+  	height: 2px;
+}
+.Clock {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 420px 0 420px;
+}
+.time {
+	font-size: 180px;
+	color: white;
+}
+.color {
+	font-size: 44px;
+	color: white;
+
+}

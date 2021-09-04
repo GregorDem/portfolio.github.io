@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Добро пожаловать в &laquo;Konvect&raquo;</h1>
+    <main>
+        <section id  = "ent" class="entrance">
+            <form action="">
+                <h2>Вход</h2>
+                <input id = "loginE" placeholder = "Логин" type="text">
+                <input id = "paswordE" placeholder = "Пароль" type="text">
+                <button>Войти</button>
+            </form>
+            <div class="link">
+                <a href="#">Вход</a>
+                <a onclick = "toReg()" href="#">Регистрация</a>
+            </div>
+        </section>
+        <section id = "reg" class="registration">
+            <form action="">
+                <h2>Регистрация</h2>
+                <input id = "name" placeholder = "Имя" type="text">
+                <input id = "secondName" placeholder = "Фамилия" type="text">
+                <input id = "loginR" placeholder = "Логин" type="text">
+                <input id = "paswordR" placeholder = "Пароль" type="text">
+                <button onclick="Registration()">Зарегистрироваться</button>
+            </form>
+            <div class="link">
+                <a onclick = "toEnt()" href="#">Вход</a>
+                <a href="#">Регистрация</a>
+            </div>
+        </section>
+    </main>
+<script src = "main.js"></script>
+</body>
+</html>

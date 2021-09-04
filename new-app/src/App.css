@@ -1,0 +1,224 @@
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: #ffd900;
+  font-family: 'Tourney', cursive;
+  background-color: #1f2122;
+  margin: 0;
+  padding: 50px 0;
+}
+body {
+  background: #292e30;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #303536;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22), 0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22), 0 2px 4px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.about h2 {
+  color: wheat;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 36px;
+}
+.about p {
+  width: 900px;
+  text-align: center;
+  color: white;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 22px;
+}
+nav {
+  width: 15%;
+}
+nav ul {
+  background-color: #1f2122;
+  border-radius: 0 0 20% 0;
+  height: 280px;
+  width: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  margin-top: 0;
+  padding: 10px 20px;
+}
+nav li {
+  list-style-type: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffd900;
+  font-family: 'Philosopher', sans-serif;
+}
+.backTitle {
+  width: 100%;
+  height: 80px;
+  background-color: #1f2122;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: wheat;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 36px;
+}
+.list {
+  margin: 20px 10px 0 0;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.list .item {
+  list-style-type: none;
+  width: 340px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: white;
+  background: #303536;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+}
+.list .item .NameDrink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.list .item img {
+  width: 170px;
+  height: 170px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+}
+.list .item .drinkInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+}
+.list .item .buttonBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list .item button {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 8px 16px;
+  background-color: #ffd900;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 15px 15px rgba(0, 0, 0, 0.22), 0 2px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+.list .item button:hover {
+  background-color: #c7ad1a;
+}
+.list .item button:focus:not(:active) {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 8px 16px;
+  background-color: #5e5107;
+  outline: 2px solid #252109;
+  -webkit-box-shadow: inset 0 0 6px ;
+          box-shadow: inset 0 0 6px ;
+}
+.list .item .favorite {
+  width: 50px;
+  height: 50px;
+  background-image: url(img/Heart-in-cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list .item .rank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+.list .item .rank .star {
+  width: 24px;
+  height: 24px;
+  background-image: url(img/star.png);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  background-position: center;
+}
+.Mainwindow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

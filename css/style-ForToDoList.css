@@ -1,0 +1,200 @@
+.first-block {
+	background-color: #70A8A9;
+}
+h1 {
+	text-align: center;
+	font-size: 72px;
+}
+.Footnote {
+	text-align: center;
+	font-size: 36px;
+	margin: 50px 100px;
+}
+.TDL {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding:20px 0 50px;
+}
+.toDoList {
+	border:2px solid #2B0F0E;
+	background-color: #F7E1A8;
+	max-width: 1200px;
+	display:flex;
+	flex-basis: 50%;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 0 10px;
+	margin: 0 10px;
+	-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.label {
+	font-family: 'Abril Fatface', cursive;
+}
+.label-second {
+	font-size: 48px;
+}
+.DivTasks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2px;
+}
+.Alltasks {
+	display: flex;
+	flex-direction: column;
+}
+.newCheckbox {
+	display: inline-block;
+	flex-basis:5%;
+	content: "\2713";
+	border-color: red;
+}
+.checked {
+	opacity: 0.4;
+}
+.fading {
+	animation: fading 0.6s ease-in-out;
+}
+.clarification {
+	animation: clarification 0.6s ease-in-out;
+}
+.disappearance {
+	animation: disappearance 1s ease-in-out;
+}
+.appearance {
+	animation: appearance 1s ease-in-out;
+}
+.newTask {
+	margin:5px;
+	font-size: 30px;
+	font-family: 'Akaya Kanadaka', cursive;
+	display: inline-block;
+	flex-basis: 60%;
+}
+.text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+textarea {
+	background: linear-gradient(to bottom left,#B9CEC5,white);
+	border:1px solid #2B0F0E;
+	min-width: 400px;
+	max-width: 600px;
+	height: 100px;
+	max-height: 200px;
+	resize: none;
+	font-size: 25px;
+	font-family: 'Akaya Kanadaka', cursive;
+	-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+textarea:focus {
+  outline:1px solid #2B0F0E;
+
+}
+.Save {
+	padding: 10px 50px;
+	margin: 20px 0 10px;
+	border: 1px solid #2B0F0E;
+	font-size: 16px;
+	font-family: 'Abril Fatface', cursive;
+	background: linear-gradient(to bottom left,#2B0F0E,#F7E1A8);
+}
+.Save:hover {
+	background: linear-gradient(to bottom,#2B0F0E,#F7E1A8);
+	cursor: pointer;
+}
+.Save:focus {
+	outline: none;
+}
+.Save:active {
+	outline: none;
+	-webkit-transform: translateY(1px);
+          transform: translateY(1px);
+    color: #B9CEC5;
+}
+.Edit {
+	flex-basis: 5%;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #70A8A9;
+	background: linear-gradient(to top,#70A8A9,#B9CEC5);
+	font-family: 'Abril Fatface', cursive;
+}
+.Edit:hover {
+	background: linear-gradient(to bottom,#70A8A9,#B9CEC5);
+}
+.Edit:active {
+	outline: none;
+	-webkit-transform: translateY(1px);
+          transform: translateY(1px);
+    color:#B9CEC5;
+}
+.Edit:focus {
+	outline: none;
+}
+.Delete {
+	flex-basis: 5%;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #C49032;
+	background: linear-gradient(to top,#C49032,#E2A330);
+	font-family: 'Abril Fatface', cursive;
+}
+.Delete:hover {
+	background: linear-gradient(to bottom,#C49032,#E2A330);
+}
+.Delete:active {
+	outline: none;
+	-webkit-transform: translateY(1px);
+          transform: translateY(1px);
+    color:#B9CEC5;
+}
+.Delete:focus {
+	outline: none;
+}
+.line-one {
+	width: 100%;
+  	height: 2px;
+  	background-color: #2B0F0E;
+  	margin: 10px 0;
+}
+
+@keyframes fading {
+	from {
+		opacity: 1; 
+	}
+	to {
+		opacity: 0.4;
+	}
+}
+@keyframes clarification {
+	from {
+		opacity: 0.4; 
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes disappearance {
+	from {
+		padding-left: 0;
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		margin-right: 100px;
+	}
+}
+@keyframes appearance {
+	from {
+		opacity: 0; 
+	}
+	to {
+		opacity: 1;
+	}
+}
