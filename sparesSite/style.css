@@ -378,7 +378,8 @@ main {
 }
 .leftBlock {
   height: 356px;
-  width: 367px;
+  width: 460px;
+  margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +411,7 @@ main {
 }
 .rightBlock {
   height: 356px;
-  width: 763px;
+  width: 950px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
